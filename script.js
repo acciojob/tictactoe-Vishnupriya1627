@@ -27,8 +27,8 @@ submit.addEventListener("click", onSubmitted);
 
 function onSubmitted(e) {
   e.preventDefault();
-  player1 = document.querySelector("#player-1").value;
-  player2 = document.querySelector("#player-2").value;
+  player1 = document.querySelector("#player1").value;
+  player2 = document.querySelector("#player2").value;
   console.log(player1, player2);
   player = player1;
   form.style.display = "none";
