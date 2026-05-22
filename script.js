@@ -71,7 +71,7 @@ function checkWinner() {
     const c = cell[combo[2]].innerHTML;
 
     if (a !== "" && a === b && b === c) {
-      message.innerHTML = `${player}, congratulations you won!`;
+      message.innerHTML = `${player} congratulations you won!`;
       return true;
     }
   }
