@@ -7,7 +7,7 @@ const grid = document.querySelector(".grid");
 const cell = document.querySelectorAll(".cell");
 let player1 = "";
 let player2 = "";
-let val = "X";
+let val = "x";
 let player = "";
 let gameOver = false;
 const winningCombinations = [
@@ -58,7 +58,7 @@ document.addEventListener("click", function (e) {
       message.innerHTML = "It's a tie!";
       return;
     }
-    val = val == "X" ? "O" : "X";
+    val = val == "x" ? "o" : "x";
     player = player == player1 ? player2 : player1;
     message.innerHTML = `${player}, you're up!!`;
   }
